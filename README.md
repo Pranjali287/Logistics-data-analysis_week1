@@ -167,7 +167,6 @@ A fully interactive, multi-page analytics dashboard was built in HTML + Chart.js
 
 | Format | Location | Description |
 |---|---|---|
-| **Interactive HTML** | [`powerbi/dashboard.html`](powerbi/dashboard.html) | Open in any browser — fully interactive with hover tooltips, animated transitions, and clickable sidebar navigation |
 | **Static PNGs (×5)** | [`powerbi/`](powerbi/) | One high-resolution PNG per dashboard page, ready for report/presentation embedding |
 
 ### Dashboard Pages
@@ -210,5 +209,4 @@ All algorithms, metrics, and models are grounded in peer-reviewed literature. Se
 | 8 | Route Optimization Comparison | `outputs/route_optimization_comparison.csv` | ✅ Complete |
 | 9 | Academic References | `references.md` | ✅ Complete |
 | 10 | Presentation Outline (8 slides) | `presentation_outline.md` | ✅ Complete |
-| 11 | **Interactive Analytics Dashboard** | `powerbi/dashboard.html` | ✅ Complete |
-| 12 | **Dashboard PNGs (×5 pages)** | `powerbi/page1_*.png … page5_*.png` | ✅ Complete |
+| 11 | **Dashboard PNGs (×5 pages)** | `powerbi/page1_*.png … page5_*.png` | ✅ Complete |
