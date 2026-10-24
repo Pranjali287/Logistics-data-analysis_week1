@@ -1,0 +1,4 @@
+Method,Haversine Distance (km),Distance per Stop (km),Improvement vs Baseline
+Historic Dispatcher Baseline,311.33,12.45,0.0% (Baseline)
+Nearest Neighbor Heuristic,129.8,5.19,-58.3%
+2-Opt Edge-Exchange Optimized,108.08,4.32,-65.3%

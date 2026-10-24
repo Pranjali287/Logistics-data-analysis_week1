@@ -1,0 +1,4 @@
+Model,WAPE (test),Mean Signed Error (Bias),MAE,Notes
+7-day Moving Average,20.96%,+0.377,4.37,Baseline moving average using past 7 completed days
+Gradient Boosting Regressor,17.14%,+0.341,3.57,"Ensemble decision tree model with calendar, lag_7, lag_14, roll_mean_7, roll_mean_28"
+"ARIMA (1, 0, 1) on SKU_012",17.22%,N/A,N/A,Univariate time series on top SKU; Naive WAPE was 14.18%

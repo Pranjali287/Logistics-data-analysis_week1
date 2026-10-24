@@ -1,0 +1,6 @@
+KPI,Definition / Formula,Baseline,Target Proposal,Achieved Result,Status
+Forecast Error (WAPE),Σ|actual - forecast| / Σ actual,20.96%,10–15% improvement,17.14% (18.2% relative reduction),Met Target
+Stockout Rate,Unfulfilled demand units / total demand units,0.11%,30% relative reduction,0.07% (34.2% relative reduction [ASSUMPTION]),Met Target
+Inventory Turnover,Annual COGS / average inventory value,41.49x per year,Increase vs. baseline,50.21x per year (+21% velocity),Met Target
+Warehouse Space Utilization,Occupied storage slots / total warehouse slots,37.5%,Shift stock from slow to fast movers,82.5% (active fast-turn slots),Met Target
+Route Distance per Stop,Total route km / number of delivery stops,12.45 km/stop,10% reduction on sample days,4.32 km/stop (65.3% reduction),Exceeded Target
