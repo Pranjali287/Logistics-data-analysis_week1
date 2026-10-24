@@ -159,33 +159,7 @@ This executes the entire end-to-end pipeline:
 - **Methodology:** Haversine distance matrix $\rightarrow$ Nearest Neighbor constructive tour $\rightarrow$ 2-Opt local search edge-exchange untangling.
 - **Performance:** Reduced distance from 311.33 km down to 108.08 km (65.3% reduction).
 
----
-
-## 6. Interactive Analytics Dashboard
-
-A fully interactive, multi-page analytics dashboard was built in HTML + Chart.js to visualise all project results. It is available in two formats:
-
-| Format | Location | Description |
-|---|---|---|
-| **Static PNGs (×5)** | [`powerbi/`](powerbi/) | One high-resolution PNG per dashboard page, ready for report/presentation embedding |
-
-### Dashboard Pages
-
-| Page | File | Charts & Visuals |
-|---|---|---|
-| **1 — Executive Summary** | `page1_executive_summary.png` | 5 KPI cards · KPI summary table · Achievement radar · Utilization gauge |
-| **2 — Demand & Forecasting** | `page2_demand_forecast.png` | WAPE model comparison · Top-10 SKUs · Monthly revenue by warehouse · Day-of-week demand · Forecast bias |
-| **3 — Inventory Health** | `page3_inventory_health.png` | Segment donut (AX/CZ) · Stock-on-hand trend · SKU scatter (demand vs CV) · Policy table |
-| **4 — Route Optimization** | `page4_route_optimization.png` | Route distance bar · Distance/stop bar · % improvement bars · Bangalore delivery map |
-| **5 — Anomaly Detection** | `page5_anomaly_detection.png` | Event-type donut · Warehouse stacked bar · Z-score column · Flagged event detail table |
-
-### Dashboard Preview
-
-> Open [`powerbi/dashboard.html`](powerbi/dashboard.html) in any modern browser (Chrome, Edge, Firefox) for the full interactive experience. No server or installation required.
-
----
-
-## 7. Academic References
+## 6. Academic References
 
 All algorithms, metrics, and models are grounded in peer-reviewed literature. See [`references.md`](references.md) for full details:
 - **Hyndman & Koehler (2006):** Forecast accuracy metrics (WAPE vs. MAPE under intermittent demand).
